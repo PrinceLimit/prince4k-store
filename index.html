@@ -3,113 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Prince4k Store - Topup Mobile Legends</title>
+    <meta name="description" content="Laman web seperti GameJus">
+    <title>Laman Web GameJus Klon</title>
     <style>
+        /* CSS untuk gaya laman web */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
             text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
         }
         nav {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
         }
         nav a {
-            color: #fff;
-            margin: 0 15px;
+            color: white;
+            padding: 14px 20px;
             text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
         }
         section {
             padding: 20px;
-            margin: 20px 0;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         footer {
             background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
             color: white;
-            background-color: #28a745;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            font-size: 1.2em;
         }
-        .button:hover {
-            background-color: #218838;
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        .feature-box {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .feature {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            width: 30%;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Prince4k Store</h1>
-    <p>Your One-Stop Shop for Mobile Legends Topup</p>
-</header>
+    <!-- Bahagian Header -->
+    <header>
+        <h1>Selamat Datang ke Laman Web Saya</h1>
+        <p>Ini adalah klon laman web seperti GameJus</p>
+    </header>
 
-<nav>
-    <div class="container">
-        <a href="#services">Topup Services</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact Us</a>
-    </div>
-</nav>
+    <!-- Navigasi -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<section id="services">
-    <h2>Topup Mobile Legends</h2>
-    <p>We provide secure and fast topup services for Mobile Legends players. Choose your topup package and complete your payment via e-wallet.</p>
-    <p><strong>Payment Methods:</strong> We accept payments via e-wallet for your convenience.</p>
-    
-    <!-- Action Button -->
-    <a href="https://link-ke-pembayaran-anda.com" class="button">Topup Sekarang</a>
+    <!-- Bahagian Utama -->
+    <section id="home">
+        <h2>Mulakan Pengalaman Anda</h2>
+        <p>Dapatkan semua yang anda perlukan untuk kejayaan anda dalam satu laman web.</p>
+        <a href="#contact" class="cta-button">Hubungi Kami Sekarang</a>
+    </section>
 
-</section>
+    <!-- Bahagian Features -->
+    <section id="features">
+        <h2>Ciri-ciri Utama</h2>
+        <div class="feature-box">
+            <div class="feature">
+                <h3>Ciri Pertama</h3>
+                <p>Ciri pertama yang hebat untuk pengguna anda.</p>
+            </div>
+            <div class="feature">
+                <h3>Ciri Kedua</h3>
+                <p>Ciri kedua yang memudahkan pengguna.</p>
+            </div>
+            <div class="feature">
+                <h3>Ciri Ketiga</h3>
+                <p>Ciri ketiga yang menjadikan laman ini istimewa.</p>
+            </div>
+        </div>
+    </section>
 
-<section id="testimonials" class="testimonials">
-    <h2>Customer Testimonials</h2>
-    <p>"Great service! Fast and reliable topup experience." - Alex</p>
-    <p>"Highly recommend prince4k store for Mobile Legends topups!" - Maya</p>
-</section>
+    <!-- Bahagian Contact -->
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Untuk maklumat lanjut, sila hubungi kami di:</p>
+        <p>Email: info@lamanweb.com</p>
+        <p>Telefon: +6012-3456789</p>
+    </section>
 
-<section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <p>If you have any questions or need assistance, feel free to reach out:</p>
-    <p>Email: prince.ft.tiktok@gmail.com</p>
-    <p>Phone: +60124401150</p>
-</section>
+    <!-- Bahagian Footer -->
+    <footer>
+        <p>&copy; 2024 Laman Web Saya. Hak Cipta Terpelihara.</p>
+    </footer>
 
-<footer>
-    <p>© 2024 Prince4k Store. All Rights Reserved.</p>
-</footer>
-
+    <!-- JavaScript -->
+    <script>
+        // Skrip JavaScript asas
+        console.log("Laman web telah dimuatkan dengan jayanya.");
+    </script>
 </body>
 </html>
